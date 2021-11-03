@@ -12,7 +12,7 @@ while(x!=5):
     print("3. Paillier")
     print("4. ECC")
     print("5. Exit")
-    x = int(input("Enter 1/2/3/4 : "))
+    x = int(input("Enter 1/2/3/4/5 : "))
     if (x == 1):
         a = 0
         while(a != 4):
