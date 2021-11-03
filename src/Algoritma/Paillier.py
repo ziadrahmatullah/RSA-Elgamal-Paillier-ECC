@@ -33,10 +33,10 @@ def decryptP(privateKey, cipherText):
     return result
 
 # P*Q harus diatas 256
-key = generateKeyP(17, 19)
-print(key)
-text = "HELLO ALICE, Apa yang terjadi?"
-ciphertext = encryptP(key['publicKey'], text)
-print(ciphertext)
-plaintext = decryptP(key['privateKey'], ciphertext)
-print(plaintext)
+# key = generateKeyP(17, 19)
+# print(key)
+# text = "HELLO ALICE, Apa yang terjadi?"
+# ciphertext = encryptP(key['publicKey'], text)
+# print(ciphertext)
+# plaintext = decryptP(key['privateKey'], ciphertext)
+# print(plaintext)

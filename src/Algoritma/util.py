@@ -65,4 +65,3 @@ def decode(text):
     return ''.join(newText)
 
 # TODO kasih saran key pailier
-print(modinv(3,1,11))

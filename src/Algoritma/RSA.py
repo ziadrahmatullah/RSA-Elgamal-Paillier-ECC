@@ -24,11 +24,11 @@ def decryptR(privateKey, cipherText):
     result = decode(result)
     return ''.join(result)
 
-key  = generateKeyR(47 , 71, 79)
-print(key["public"])
-print(key["private"])
-text = "HELLO ALICE, Apa yang terjadi?"
-ciphertext = encryptR(key["public"], text)
-print(ciphertext)
-plaintext = decryptR(key["private"], ciphertext)
-print(plaintext)
+# key  = generateKeyR(47 , 71, 79)
+# print(key["public"])
+# print(key["private"])
+# text = "HELLO ALICE, Apa yang terjadi?"
+# ciphertext = encryptR(key["public"], text)
+# print(ciphertext)
+# plaintext = decryptR(key["private"], ciphertext)
+# print(plaintext)
